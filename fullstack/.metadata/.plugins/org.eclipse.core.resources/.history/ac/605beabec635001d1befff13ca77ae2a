@@ -1,0 +1,20 @@
+package com.bootcamp.ycbootcamp.persist;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.bootcamp.ycbootcamp.model.Chat;
+
+@Service
+public class ChatService {
+	@Autowired
+	ChatRepository repo;
+	
+	public void service() {
+		System.out.print("zomaar in de service");
+		Chat c = new Chat();
+		c.setSender("Piet");
+		repo.save(new Chat());
+	}
+
+}

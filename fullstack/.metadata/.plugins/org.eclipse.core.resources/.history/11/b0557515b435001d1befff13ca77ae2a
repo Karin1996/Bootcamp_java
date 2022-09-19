@@ -1,0 +1,26 @@
+package com.bootcamp.ycbootcamp.rest;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class ChatEndpoint {
+	
+	// evenproberen is in de url. Om de public void Try() in de console te laten zien
+	@GetMapping("/evenproberen")
+	public void Try() {
+		System.out.println("try");
+	}
+	
+	@GetMapping("/evenproberen2")
+	public String Try2() {
+		System.out.println("try2");
+		return "Ik ben een stukje tekst";
+	}
+	
+	@GetMapping("/derde");
+	public Chat proberen3() {
+		System.out.println("derde");
+		return new Chat();
+	}
+}

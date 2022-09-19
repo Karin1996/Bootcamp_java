@@ -1,0 +1,5 @@
+package com.bootcamp.ycbootcamp.persist;
+
+public interface ChatRepository {
+
+}

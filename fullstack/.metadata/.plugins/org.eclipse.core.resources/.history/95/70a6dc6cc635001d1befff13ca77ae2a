@@ -1,0 +1,11 @@
+package com.bootcamp.ycbootcamp.persist;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class ChatServices {
+	public void service() {
+		System.out.print("zomaar in de service");
+	}
+
+}

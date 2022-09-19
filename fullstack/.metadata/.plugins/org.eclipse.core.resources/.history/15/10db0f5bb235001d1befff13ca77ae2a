@@ -1,0 +1,5 @@
+package com.bootcamp.ycbootcamp.rest;
+
+public class ChatEndpoint {
+
+}

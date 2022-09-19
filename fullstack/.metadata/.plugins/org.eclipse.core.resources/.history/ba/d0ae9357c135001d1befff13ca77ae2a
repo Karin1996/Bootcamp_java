@@ -1,0 +1,5 @@
+package com.bootcamp.ycbootcamp.config;
+
+public class SimpleCORSFilter {
+
+}

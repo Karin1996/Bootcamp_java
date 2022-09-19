@@ -1,0 +1,9 @@
+package com.bootcamp.ycbootcamp.rest;
+
+@RestController
+public class ChatEndpoint {
+	public void Try() {
+		System.out.println("try");
+	}
+
+}

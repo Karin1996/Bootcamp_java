@@ -1,0 +1,5 @@
+package com.bootcamp.ycbootcamp.domain;
+
+public class Chat {
+
+}
